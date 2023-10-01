@@ -64,10 +64,13 @@ async function getdata(url)
         for(let i=0; i<data.products.length; i++)
         {
            s+= ` <tr> <td> ${data.products[i].title} </td>  <td>${data.products[i].description} </td> <td> ${data.products[i].price}</td> </tr>`
-        }
-        document.getElementById("items").innerHTML = s;
+
+          
+        document.getElementById("items").innerHTML = s;   
         console.log(s);
-    }
+        }
+        
+        }
     catch(error)
     {
         console.log(error);
