@@ -1,3 +1,13 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(186, 105, 237);
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+
+    border: 1px solid black;
 }
